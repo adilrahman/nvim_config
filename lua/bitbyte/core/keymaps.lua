@@ -30,8 +30,8 @@ keymap.set("n", "<C-Left>", ":vertical resize +2<CR>") -- goto next buffer
 keymap.set("n", "<C-Right>", ":vertical -2<CR>") -- goto next buffer
 
 -- move text up and down
-keymap.set("v", "<A-k>", ":m .-2<CR>==") -- move selected line +1 up
-keymap.set("v", "<A-j>", ":m .+1<CR>==") -- move selected line -1 down
+keymap.set("v", "<A-j>", ":m '>+1<CR>gv=gv") -- moving continously down
+keymap.set("v", "<A-k>", ":m '<-2<CR>gv=gv") -- moving continously up
 keymap.set("v", "p", '"_dP') --
 
 --- tabs
