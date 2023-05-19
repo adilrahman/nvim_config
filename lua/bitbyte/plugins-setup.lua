@@ -102,6 +102,7 @@ return packer.startup(function(use)
 	use("terryma/vim-multiple-cursors")
 
 	use("majutsushi/tagbar") -- for tagbar
+	use("lukas-reineke/indent-blankline.nvim") -- for tagbar
 
 	if packer_bootstrap then
 		require("packer").sync()
