@@ -6,7 +6,8 @@ local keymap = vim.keymap -- for concisensess
 keymap.set("i", "jkj", "<ESC>")
 
 keymap.set("n", "<leader>nh", "nohl<CR>") -- to clear search highlight newkey space + ch
-keymap.set("n", "<leader>d", "yyp") -- to clear search highlight newkey space + ch
+keymap.set("n", "<leader>d", "yyp") -- duplicate lines
+keymap.set("n", "<leader>rp", "viwp") -- replace current word with text in default reg
 
 keymap.set("n", "x", '"_x') -- delete the char but not gonna be in the register
 keymap.set("n", "d", '"_d') -- delete but not gonna in default reg
