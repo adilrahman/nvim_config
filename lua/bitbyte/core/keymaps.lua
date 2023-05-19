@@ -43,9 +43,9 @@ keymap.set("n", "<leader>tp", ":tabp<CR>") -- goto prev
 -- nvim tree
 keymap.set("n", "<leader>x", ":NvimTreeToggle<CR>") -- goto prev
 
--- movement
--- keymap.set("n", "j" , "k")  -- goto prev
--- keymap.set("n", "k" , "j")  -- goto prev
+-- continous indentation
+keymap.set("v", "<", "<gv")
+keymap.set("v", ">", ">gv")
 --
 -- telescope
 keymap.set("n", "<leader>ff", "<cmd>Telescope find_files<cr>") -- find files within current working directory, respects .gitignore
