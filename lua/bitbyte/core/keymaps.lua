@@ -18,6 +18,7 @@ keymap.set("n", "<leader>sv", "<C-w>v") -- split vertically
 keymap.set("n", "<leader>sx", "<C-w>q") -- quite split window
 keymap.set("n", "<leader>se", "<C-w>=") -- make all split equal size
 keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>") -- maximize and restore splits
+keymap.set("n", "<leader><Tab>", "<C-w><C-w>") -- switch window using leader + Tab
 
 -- navigate buffers
 keymap.set("n", "<S-l>", ":bnext<CR>") -- goto next buffer
