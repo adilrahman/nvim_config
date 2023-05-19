@@ -7,7 +7,8 @@ keymap.set("i", "jkj", "<ESC>")
 
 keymap.set("n", "<lader>nh", "nohl<CR>") -- to clear search highlight newkey space + ch
 
-keymap.set("n", "x", '"_x') -- delete the char but not gonna past in the register
+keymap.set("n", "x", '"_x') -- delete the char but not gonna be in the register
+keymap.set("n", "d", '"_d') -- delete but not gonna in default reg
 
 keymap.set("n", "<leader>+", "<C-a>") -- incr numbers
 
