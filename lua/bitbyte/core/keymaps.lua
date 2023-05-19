@@ -5,7 +5,8 @@ local keymap = vim.keymap -- for concisensess
 -- format mode, new keys, old keys
 keymap.set("i", "jkj", "<ESC>")
 
-keymap.set("n", "<lader>nh", "nohl<CR>") -- to clear search highlight newkey space + ch
+keymap.set("n", "<leader>nh", "nohl<CR>") -- to clear search highlight newkey space + ch
+keymap.set("n", "<leader>d", "yyp") -- to clear search highlight newkey space + ch
 
 keymap.set("n", "x", '"_x') -- delete the char but not gonna be in the register
 keymap.set("n", "d", '"_d') -- delete but not gonna in default reg
