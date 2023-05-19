@@ -21,6 +21,9 @@ keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>") -- maximize and restore sp
 -- navigate buffers
 keymap.set("n", "<S-l>", ":bnext<CR>") -- goto next buffer
 keymap.set("n", "<S-h>", ":bprevious<CR>") -- go to prev buffer
+keymap.set("n", "<TAB>", ":bn<CR>") -- goto next buffer
+keymap.set("n", "<S-TAB>", ":bp<CR>") -- goto prev buffer
+keymap.set("n", "<leader>bd", ":bd<CR>") -- delete the current buffer
 
 --- resize splits with arrow
 keymap.set("n", "<C-Up>", ":resize +2<CR>") -- goto next buffer
