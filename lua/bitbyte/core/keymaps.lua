@@ -71,5 +71,6 @@ keymap.set("n", "<leader>v", ":TagbarToggle<CR>") -- maximize and restore splits
 -- new custom general
 keymap.set("n", "J", "") --- while joining lines the cursor will not move to anywhere
 keymap.set("n", "<leader>hh", ":nohlsearch<CR>") --- while joining lines the cursor will not move to anywhere
-keymap.set("n", "<leader>sp", "*") ---search the cursor word in the file
+keymap.set("n", "<leader>sw", "*") ---search the cursor word in the file
+keymap.set("n", "<leader>cx", ":q<CR>") --- close the buffer
 -- keymap.set("v", "<C-s>", "*") ---search the selected text in the file in visual mode
